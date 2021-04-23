@@ -1,1 +1,2 @@
-initial commit
+d = "dwash"
+print(help(d.upper))
