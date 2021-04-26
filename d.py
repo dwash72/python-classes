@@ -1,9 +1,10 @@
-h = "dwash"
-empty = ""
-for i in h:
-	#print(i)
-	empty = i + empty   
-print(empty) 
+# h = "dwash"
+# empty = ""
+# for i in h:
+# 	#print(i)
+# 	empty = i + empty   
+# print(empty) 
+
 
 
 
