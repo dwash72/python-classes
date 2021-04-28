@@ -6,11 +6,16 @@
 
 #for loop
 
-d = {"name":"dwash", "address":"purasaiwalkam"}
+# d = {"name":"dwash", "address":"purasaiwalkam"}
+# empty = {}
+# for d,v in d.items():
+# 	empty[d] = v
+# print(empty)
+
+
+user_d = {"name":"dwash","phone number":"0889279272"}
 empty = {}
-for d,v in d.items():
-	empty[d] = v
+for user_d,v in user_d.items():
+	empty[user_d] = v
 print(empty)
-
-
 	
