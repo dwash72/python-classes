@@ -13,9 +13,9 @@
 # print(empty)
 
 
-user_d = {"name":"dwash","phone number":"0889279272"}
-empty = {}
-for user_d,v in user_d.items():
-	empty[user_d] = v
-print(empty)
-	
+# user_d = {"name":"dwash","phone number":"0889279272"}
+# empty = {}
+# for user_d,v in user_d.items():
+# 	empty[user_d] = v
+# print(empty)
+# 	
