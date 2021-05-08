@@ -52,7 +52,18 @@
 # 	print(args , kwargs)
 # function(10,2,3 , a=10, b = 20)
            
-def function(e):
-	return e * e
-data = list(map(function,[1,2,3,4]))
-print(data)
+# def function(e):
+# 	return e * e
+# data = list(map(function,[1,2,3,4]))
+# print(data)
+
+# def function(m):
+# 	data = [d * m for d in range(1 , m + 1)]
+# 	return data
+# print(function(8))
+
+
+
+
+
+	
