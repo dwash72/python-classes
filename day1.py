@@ -23,22 +23,6 @@
 # else:
 # 	print("no")
 
-# import re
-# data = "hello"
-# x = re.findall("hi", data)
-# if x :
-# 	print("yes")
-# else:
-# 	print("no")
-
-# import re
-# data = "hello"
-# x = re.findall("hello", data)
-# if x :
-# 	print("yes")
-# else:
-# 	print("no")
-
 #method function
 # def function(strrrr , dwash):
 # 	if (strrrr.find(dwash) == -1):
@@ -59,7 +43,7 @@
 # 	sorted_dict[x] = dic1[x]
 # print(sorted_dict)
 	
-dic1 = {'johann':52, 'k':22}
+dic1 = {'johann':52, 'k':22, 'h':1, 's':2}
 sorted_values = sorted(dic1.values())
 # print(sorted_values)
 sorted_dict = {}
