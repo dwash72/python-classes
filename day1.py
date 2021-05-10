@@ -51,16 +51,24 @@
 
 #excercise-2
 
-# def function(composers):
-# 	for x in composers:
-# 		x = sorted(composers)
-# composers = {'johann':52, 'k':22}
-# function(composers)
+# dic1 = {'j':3, 'f':2, 'd':1}
+# sorted_dict = {}
+# sorted_values = sorted(dic1, key= dic1.get)
+# print(sorted_values)
+# for x in sorted_values:
+# 	sorted_dict[x] = dic1[x]
+# print(sorted_dict)
+	
+dic1 = {'johann':52, 'k':22}
+sorted_values = sorted(dic1.values())
+# print(sorted_values)
+sorted_dict = {}
+for x in sorted_values:
+	for k in dic1.keys():
+		if dic1[k] == x:
+			sorted_dict[k] = dic1[k]
+			break
+print(sorted_dict)
+			
 
-# def  dic():
-# 	composers = {'johann':52, 'k':22}
-# 	for x in sorted(composers):
-# 		print((i , composers[i]), end = "")
-# def main():
-# 	dic()
-# 	print(main())
+
