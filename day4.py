@@ -21,4 +21,6 @@ for x in ex:
 	else:
 		newlist[x] = False
 print(newlist)
-	
+  
+
+
