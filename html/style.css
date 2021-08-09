@@ -1,0 +1,24 @@
+.title {
+	color: green;
+}
+.para-text{
+	color: red;
+}
+#google-link-link{
+	color: blue;
+}
+.list-item:only-child{
+	color: pink;
+}
+#google-link-visited{
+	color: red;
+}
+/*h2.hover{
+	color: green
+/*}*/
+#about-me{
+	color: green;
+}
+.subtitle{
+	color :blue;
+}
